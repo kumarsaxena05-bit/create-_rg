@@ -10,3 +10,7 @@ resource "azurerm_resource_group" "myrg2" {
   name = "new rg"
   location = "eastus"
 }
+resource "azurerm_resource_group" "myrg3" {
+  name = "new rg1"
+  location = "eastus"
+}
