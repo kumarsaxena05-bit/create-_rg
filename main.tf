@@ -14,3 +14,7 @@ resource "azurerm_resource_group" "myrg3" {
   name = "new rg1"
   location = "eastus"
 }
+resource "azurerm_resource_group" "myrg33" {
+  name = "conflict_rg1"
+  location = "eastus"
+}
